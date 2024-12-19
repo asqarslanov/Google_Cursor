@@ -49,3 +49,6 @@ jobs:
 
       - name: Building `GoogleDot Red` Cursors
         run: ctgen build.toml -d 'bitmaps/GoogleDot-Red' -n 'GoogleDot-Red' -c 'Red cursor theme inspired on Google'
+
+      - name: Building `GoogleDot Green` Cursors
+        run: ctgen build.toml -d 'bitmaps/GoogleDot-Green' -n 'GoogleDot-Green' -c 'Green cursor theme inspired on Google'
